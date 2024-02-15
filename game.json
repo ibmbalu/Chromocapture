@@ -1,0 +1,501 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "89c3b9ce-7633-40c9-82aa-7fdeb39ba0b5",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Chromocapture",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/WinGame.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.18,\\\"sustainPunch\\\":0,\\\"decay\\\":0.39,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":700,\\\"frequencySweep\\\":600,\\\"frequencyDeltaSweep\\\":800,\\\"repeatFrequency\\\":7.5,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"triangle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":45,\\\"squareDutySweep\\\":-20,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"WinGame\"}}",
+        "name": "WinGame",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/WinGame.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat light joystick border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat light joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/Flat light joystick border.png",
+          "name": "Flat light joystick border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat light joystick thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat light joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/Flat light joystick thumb.png",
+          "name": "Flat light joystick thumb.png"
+        }
+      },
+      {
+        "file": "assets/Death.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.08,\\\"sustainPunch\\\":30,\\\"decay\\\":0.33,\\\"tremoloDepth\\\":32,\\\"tremoloFrequency\\\":57,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-4500,\\\"frequencyDeltaSweep\\\":-4400,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1.4000000000000001,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Death\"}}",
+        "name": "Death",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/Death.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BlueCheckered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BlueCheckered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/BlueCheckered.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Ding.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Jump 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":0,\\\"decay\\\":0.19,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1000,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":20,\\\"frequencyJump1Amount\\\":50,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":30,\\\"squareDutySweep\\\":-50,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"Ding\"},\"localFilePath\":\"assets/Ding.wav\"}",
+        "name": "Ding",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://gdevelop-generations.s3.amazonaws.com/projects/templates/top-down/assets/Ding.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fishing Hook_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fishing Hook_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/7537b6ae2f6a59dc38553bd828a188c833ccedaaef372f093627a9bd5f3bb2d9_Fishing Hook_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fishing Hook_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fishing Hook_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/8eccb966e5f85e48b91c2b8d197b3cdb0338b7320abf7bd5975a7bb4b0d0d9a7_Fishing Hook_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fish.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Mart/Food/0a5077a0af88ad55bd55e2a37014b38d688e9167e200f1eef595399346e902ad_Fish.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Sand.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Sand.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/b172907f8ae6c3d132b1c25b821256087a7834824973892dbb092bc41adfbb63_tiled_Sand.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Grass and Sand_all_128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Grass and Sand_all_128.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/02069d46438112476136caad7bcf892a581133f1b191ae4b6aa5dc09bd4e18ff_9patch_Grass and Sand_all_128.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Poison_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Poison_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Status Effects/b5337cc20823fb020f33dc3fa24ed50563eddb56329023669e83e31e1934561c_Poison_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Poison_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Poison_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Status Effects/8c19d0f920b1fc41c7e4d6cdb3cee851ea6762adfc4912519da86806a75189de_Poison_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Attack_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/40201ececa36787076b05cb8f7e0e9b967dd3b7ff4fe5bfe4a8a2a1bf60c5b36_Grizzly_Attack_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Attack_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/b635ccbf869d26c649a1af2f9485f1305034b22ed46ce5abe5f3edd303acbc16_Grizzly_Attack_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Attack_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/56379a8b1ff7dd16fbd39725934f6704c3fd8f3c8344905493a88b2999dc70a6_Grizzly_Attack_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Attack_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/4e8e76f307faa65ebdcb45128a13d8b4abbee5288d2d5af9e49024f1372c13e7_Grizzly_Attack_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Attack_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/52e1cdeb3c9c911cb97c9f8f2f8388f70cce11dab187dba9791d579bfb63b2c7_Grizzly_Attack_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/456c2a3d90af47134ba1a17646c2992ac328a78ea062112c8b265a3ca5355ea4_Grizzly_Idle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Sleeping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Sleeping.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/c8551008ea0cb6267f7cc7d61e3d464886364a406daffc6b250bc21be4f6582c_Grizzly_Sleeping.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Wakeup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Wakeup_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/c8551008ea0cb6267f7cc7d61e3d464886364a406daffc6b250bc21be4f6582c_Grizzly_Wakeup_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Wakeup_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Wakeup_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/c0363ac77f4466f8a7fd0f323a2db8458cf36a965abd5905a09de9f42145db37_Grizzly_Wakeup_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Wakeup_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Wakeup_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/456c2a3d90af47134ba1a17646c2992ac328a78ea062112c8b265a3ca5355ea4_Grizzly_Wakeup_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/5296154902aff6b68e6afdc0f64d5ea435c0ddfe64b476b2b48a9fb981f5c2aa_Grizzly_Walking_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/89593a458f71d7a369f2ee160f51c525eaef9069dcbb3269080ad1165632cfc2_Grizzly_Walking_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/4d162f8707fda01baa45bc4770dc332052e12b0fbd76ff08309cde28923807d5_Grizzly_Walking_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/6e411efbe0742e4f5c7d3e10a3e569b3a054c8d68798cf4614737733344e92d2_Grizzly_Walking_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/a2a05ef34da89b0a7c6f44a6dda140370501f00b972e5bf709f53acf52a0a8af_Grizzly_Walking_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grizzly_Walking_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grizzly_Walking_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Grizzly/3ab9299a2a673f24a220dbc82a548fde7f628542652e327d6001bae7c3147e31_Grizzly_Walking_6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Worm Bait_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Worm Bait_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/5e6cfd6c764dc872b45c353a22bfc4b1761a5d60fbe186fee8f10e81f6f4b1d3_Worm Bait_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Worm Bait_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Worm Bait_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/ba0721585aa6f8d46cd08c7b5dfbeb7f277652339de14df893c69216dec2a072_Worm Bait_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gamescene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

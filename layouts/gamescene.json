@@ -1,0 +1,3329 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "GameScene",
+  "name": "GameScene",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": false,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.8993607583666738,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Hazards",
+      "objects": [
+        {
+          "name": "Poison"
+        },
+        {
+          "name": "Grizzly"
+        }
+      ]
+    },
+    {
+      "name": "Markers",
+      "objects": [
+        {
+          "name": "CameraBoundarysMarker_Left"
+        },
+        {
+          "name": "CameraBoundarysMarker_Right"
+        },
+        {
+          "name": "CameraBoundarysMarker_Top"
+        },
+        {
+          "name": "CameraBoundarysMarker_Bottom"
+        }
+      ]
+    },
+    {
+      "name": "Entities",
+      "objects": [
+        {
+          "name": "FishingHook"
+        },
+        {
+          "name": "Grizzly"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "PitchScaling",
+      "type": "number",
+      "value": 1
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "Background",
+      "name": "Sand",
+      "persistentUuid": "824bc678-324f-48ff-aca1-99016ce82937",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "FlatLightJoystick",
+      "persistentUuid": "c51d2f52-5891-4f51-b03e-a2d73bb83619",
+      "sealed": true,
+      "width": 0,
+      "x": 144,
+      "y": 592,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI",
+      "name": "Score",
+      "persistentUuid": "4073922b-fd39-487b-b30b-e9b39cb0058a",
+      "width": 224,
+      "x": 32,
+      "y": 32,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1280,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Left",
+      "persistentUuid": "96ad8a48-fcd5-4b7d-a68f-b9dc382b1f32",
+      "width": 128,
+      "x": -128,
+      "y": -320,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Bottom",
+      "persistentUuid": "6657bf0f-bd0c-45e8-b369-af90211029ce",
+      "width": 1280,
+      "x": 0,
+      "y": 960,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 103.5,
+      "layer": "",
+      "name": "FishingHook",
+      "persistentUuid": "cdf425cc-4af4-4f86-aaef-c0b8f3585f31",
+      "width": 103.5,
+      "x": 1024,
+      "y": 128,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1280,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Right",
+      "persistentUuid": "f64edeb2-ccd2-49ed-b0c7-4642f90bf986",
+      "width": 128,
+      "x": 2112,
+      "y": -320,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "Fish",
+      "persistentUuid": "ccdfc86f-e406-4d50-83ab-147de8d556d5",
+      "width": 128,
+      "x": 1792,
+      "y": 640,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Top",
+      "persistentUuid": "15bd47cb-a063-4db3-956c-72af75b88382",
+      "width": 1280,
+      "x": 0,
+      "y": -832,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "3165c8e4-7b95-490f-aadc-feda90e600e6",
+      "width": 64,
+      "x": 1792,
+      "y": -64,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "dec2c741-cf2a-480c-938b-d8796c798561",
+      "width": 64,
+      "x": 1792,
+      "y": -128,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "",
+      "name": "Grizzly",
+      "persistentUuid": "f44cf44b-4eaa-441f-8630-e3bc76dc2306",
+      "width": 64,
+      "x": 448,
+      "y": 192,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "",
+      "name": "Grizzly",
+      "persistentUuid": "58ea9304-c8b4-4882-8d6c-361e69fe0014",
+      "width": 64,
+      "x": 1408,
+      "y": -192,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "395c6a10-944e-4e2f-b2cb-7982b5d669f8",
+      "width": 64,
+      "x": 320,
+      "y": 128,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "6f9bdff0-8124-4bcc-af39-29e8bf21f590",
+      "width": 64,
+      "x": 448,
+      "y": 320,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "ad7a7cf8-5aee-4b11-9ee6-9678a187d911",
+      "width": 64,
+      "x": 512,
+      "y": 384,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "ffb78d72-6039-4bc1-96b7-8679f4ec15d9",
+      "width": 64,
+      "x": 384,
+      "y": 384,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "2a162dff-10f8-4aae-8b17-dabfc31c7f0a",
+      "width": 64,
+      "x": 320,
+      "y": 320,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "419b4658-6c04-4eac-8069-93cb4df03797",
+      "width": 64,
+      "x": 576,
+      "y": 128,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "de89ee92-cf1b-4eee-a899-ccfe39e8ee9c",
+      "width": 64,
+      "x": 512,
+      "y": 64,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "108faeaf-ce1a-498d-8304-6a125763398c",
+      "width": 64,
+      "x": 448,
+      "y": 128,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "9c2bb1d9-1331-4cc1-8cee-19f5f3eb344d",
+      "width": 64,
+      "x": 384,
+      "y": 64,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "2afe2df6-82eb-478b-b605-ceb9b8c24704",
+      "width": 64,
+      "x": 576,
+      "y": 320,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "7067652f-43b5-4332-9cd4-da09f7922ff6",
+      "width": 64,
+      "x": 1216,
+      "y": 768,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "a8bc5fcb-bc06-4017-a838-339647d7eea9",
+      "width": 64,
+      "x": 640,
+      "y": 64,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "2f23b549-483f-4ef9-a3df-d75f72eba4f6",
+      "width": 64,
+      "x": 256,
+      "y": 64,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "8dc762f6-3d7c-4145-acda-afe736660c2e",
+      "width": 64,
+      "x": 256,
+      "y": 384,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b1ca3078-e3c2-4319-8d1b-544841681c76",
+      "width": 64,
+      "x": 960,
+      "y": 576,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "7ba631cc-1e94-437b-9121-37ae2112e32a",
+      "width": 64,
+      "x": 192,
+      "y": 768,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "c8bd3763-b9a1-4475-99e0-bfd2bee47de7",
+      "width": 64,
+      "x": 704,
+      "y": 768,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "cdc2fcbd-b6c0-4bf4-b269-f711d5243468",
+      "width": 64,
+      "x": 448,
+      "y": 576,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "4b0fd7be-2871-4193-a609-7c2e534e967c",
+      "width": 64,
+      "x": 1024,
+      "y": 704,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "cc54aadd-3e86-4c7c-8955-2c3b536cf92c",
+      "width": 64,
+      "x": 768,
+      "y": 640,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "79f1e1ec-169e-468d-b734-93ed7a99292b",
+      "width": 64,
+      "x": 832,
+      "y": 704,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "ac9c1114-a5e4-4bbd-a5ce-e3cf94f2894d",
+      "width": 64,
+      "x": 896,
+      "y": 768,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "d056ec32-fda2-43be-adb9-1e08ff2a9c3e",
+      "width": 64,
+      "x": 1856,
+      "y": -576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "edade054-1744-4775-9978-958c95411615",
+      "width": 64,
+      "x": 1088,
+      "y": 640,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "f10d8573-9211-4394-b762-d0cb65a609f2",
+      "width": 64,
+      "x": 256,
+      "y": 640,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "f7510a21-04c0-4aca-852e-2fb6053ca31e",
+      "width": 64,
+      "x": 320,
+      "y": 704,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "3097ed45-7bec-4484-8236-c907d5cce686",
+      "width": 64,
+      "x": 384,
+      "y": 768,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "b059fdfb-93d5-4d0e-84ed-26fad0488bf3",
+      "width": 64,
+      "x": 512,
+      "y": 704,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "0eb872fa-63a6-48a4-a7ab-fefa164e58b7",
+      "width": 64,
+      "x": 640,
+      "y": 576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "e9e0401d-c2a5-4ab0-a255-b81af3ef58bb",
+      "width": 64,
+      "x": 576,
+      "y": 640,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "",
+      "name": "Grizzly",
+      "persistentUuid": "8dc69150-be53-4e32-9ee7-0beb03c25866",
+      "width": 64,
+      "x": 1408,
+      "y": 768,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 42,
+      "layer": "",
+      "name": "Grizzly",
+      "persistentUuid": "4c0041be-012b-45fc-afe7-f0a5e681b1cd",
+      "width": 64,
+      "x": 1408,
+      "y": 576,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "5bed512d-a7e3-4fbd-8793-568cfa29a01c",
+      "width": 64,
+      "x": 1152,
+      "y": 576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "fc7d40cc-a4a9-4a03-82b9-73949cfea638",
+      "width": 64,
+      "x": 1472,
+      "y": 320,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "629780f9-1253-4e34-b53b-b62f32abab70",
+      "width": 64,
+      "x": 1536,
+      "y": 256,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "4de0fa00-54cf-448e-8b9a-d439126d434f",
+      "width": 64,
+      "x": 1600,
+      "y": 320,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "b244483e-fe5e-40db-b443-3f1f26827b54",
+      "width": 64,
+      "x": 1664,
+      "y": 384,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "40df6c29-0708-4a3d-8d87-85acb9026cff",
+      "width": 64,
+      "x": 192,
+      "y": -576,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "fac9d2b2-7dbc-42f9-8320-96a8fc064681",
+      "width": 64,
+      "x": 128,
+      "y": -384,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "f007f4e9-d966-48d4-935b-9e4eb3574a0f",
+      "width": 64,
+      "x": 192,
+      "y": -448,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "2330078c-0b5a-4b10-8aa4-74996b4e58f2",
+      "width": 64,
+      "x": 128,
+      "y": -512,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "9537f6a8-febf-476c-88ff-e8d5ad8f1edc",
+      "width": 64,
+      "x": 1536,
+      "y": -576,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "e4da185b-3175-43da-bb48-0d2decfe90f4",
+      "width": 64,
+      "x": 576,
+      "y": -256,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "9a1978d6-5fa1-4ae6-b33e-f8aad89044f6",
+      "width": 64,
+      "x": 512,
+      "y": -320,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "d7d84fe9-a0d4-4011-b8ac-33a25264d205",
+      "width": 64,
+      "x": 512,
+      "y": -384,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "190bc0a8-9519-4e74-ae6a-2afad9ff0ffc",
+      "width": 64,
+      "x": 576,
+      "y": -448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "74aa1d51-c752-45a5-adf0-c10527e0131a",
+      "width": 64,
+      "x": 896,
+      "y": -576,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "f9650749-7860-4f23-b9a9-a2ec82a4f718",
+      "width": 64,
+      "x": 1216,
+      "y": -448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "a54c06f8-9d87-4708-9399-f6cfb326bfc3",
+      "width": 64,
+      "x": 1408,
+      "y": 192,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "faef0ab7-82d0-4146-bbb7-cef527c59d17",
+      "width": 64,
+      "x": 1024,
+      "y": -192,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "e3411013-2344-452c-a049-ac86d6c1aa45",
+      "width": 64,
+      "x": 1728,
+      "y": -576,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "77d9db0f-4fce-48f9-a6e3-40ad1242f7ec",
+      "width": 64,
+      "x": 1792,
+      "y": -512,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "d5ba5117-e1bc-4f1f-aaa0-4f42cf160811",
+      "width": 64,
+      "x": 1664,
+      "y": -512,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "4497ede3-d66d-4341-8cc0-788b7d6ef8ae",
+      "width": 64,
+      "x": 768,
+      "y": -192,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "WormBait",
+      "persistentUuid": "915541af-b25b-4353-89f8-7b4633b8b6ac",
+      "width": 64,
+      "x": 896,
+      "y": -192,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "e3cc8ccf-2a84-418f-8180-0ed1290d34f9",
+      "width": 320,
+      "x": 1536,
+      "y": 128,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1664,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "9b3d18c0-d3ef-4aa4-9d70-5e7f343d7168",
+      "width": 128,
+      "x": 0,
+      "y": -704,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1664,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "6b11816c-7a7e-46f8-a038-d99a4e0ce4c0",
+      "width": 128,
+      "x": 1984,
+      "y": -704,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "76a6202d-d7ca-4328-ac8d-2873ff3049d3",
+      "width": 2112,
+      "x": 0,
+      "y": -704,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "0217fa96-2d24-4d66-b199-04f1a7532c75",
+      "width": 2112,
+      "x": 0,
+      "y": 832,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "f9f97a02-d702-4306-9a4d-ab8439e98a16",
+      "width": 1600,
+      "x": 256,
+      "y": 448,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "4d416e9d-6cc9-452a-81e5-e57b22051452",
+      "width": 1408,
+      "x": 256,
+      "y": -64,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "4108ebf4-7639-409e-80a4-42a0c8a8ce03",
+      "width": 1280,
+      "x": 576,
+      "y": -384,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 640,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "3379f7e9-4dd3-4f7c-a428-8563e75fc336",
+      "width": 128,
+      "x": 1536,
+      "y": -384,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 512,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "86830e80-7068-4485-80b7-065b22d43dfa",
+      "width": 256,
+      "x": 1472,
+      "y": 448,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "7f28c981-d532-4fde-904d-834d5821fa91",
+      "width": 256,
+      "x": 1856,
+      "y": -128,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 448,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "010e0332-cc13-4288-aa5c-7da940205675",
+      "width": 128,
+      "x": 1728,
+      "y": 128,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 448,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "56874745-66a0-4863-8eff-ea8bca389985",
+      "width": 128,
+      "x": 256,
+      "y": -704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "2fcb5330-f698-4e30-a33c-764bfd4bb880",
+      "width": 256,
+      "x": 704,
+      "y": -64,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 384,
+      "layer": "",
+      "name": "GrassandSand",
+      "persistentUuid": "7f14fae7-9680-4893-8579-460e07ea4e85",
+      "width": 256,
+      "x": 1152,
+      "y": 192,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FishingHook",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 800,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 2000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 250,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "Analog"
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fishing Hook_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fishing Hook_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fish",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fish.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 6
+                      },
+                      {
+                        "x": 31,
+                        "y": 27
+                      },
+                      {
+                        "x": 1,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Sand",
+      "texture": "tiled_Sand.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 128,
+      "height": 384,
+      "leftMargin": 128,
+      "name": "GrassandSand",
+      "rightMargin": 128,
+      "texture": "9patch_Grass and Sand_all_128.png",
+      "tiled": true,
+      "topMargin": 128,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 384,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Left",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Right",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Top",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Bottom",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Poison",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Poison_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Poison_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Grizzly",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Activated",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleeping",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Sleeping.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wakeup",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1667,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 10
+                      },
+                      {
+                        "x": 42,
+                        "y": 32
+                      },
+                      {
+                        "x": 7,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WormBait",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Worm Bait_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 6,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Worm Bait_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 6,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c7a381f15f0bb07adc63d78850702df44e8328a15db1ecb10ca1503491ed22a0",
+      "name": "FlatLightJoystick",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Border": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat light joystick border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat light joystick thumb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score: 0",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "255;255;255"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "FishingHook"
+      },
+      {
+        "objectName": "Fish"
+      },
+      {
+        "objectName": "Sand"
+      },
+      {
+        "objectName": "GrassandSand"
+      },
+      {
+        "objectName": "CameraBoundarysMarker_Left"
+      },
+      {
+        "objectName": "CameraBoundarysMarker_Right"
+      },
+      {
+        "objectName": "CameraBoundarysMarker_Top"
+      },
+      {
+        "objectName": "CameraBoundarysMarker_Bottom"
+      },
+      {
+        "objectName": "Poison"
+      },
+      {
+        "objectName": "Grizzly"
+      },
+      {
+        "objectName": "WormBait"
+      },
+      {
+        "objectName": "FlatLightJoystick"
+      },
+      {
+        "objectName": "Score"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "FishingHook",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "FishingHook",
+            "=",
+            "1000"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FlatLightJoystick",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::Width"
+          },
+          "parameters": [
+            "Sand",
+            "=",
+            "CameraWidth()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "Sand",
+            "=",
+            "CameraCenterX()"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "Sand",
+            "=",
+            "CameraCenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Entities",
+            "GrassandSand",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Score",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FishingHook",
+                "WormBait",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "WormBait",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fail Game",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Entities",
+                "Hazards",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Entities",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "FishingHook",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Death",
+                "",
+                "75",
+                "0.8"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Win Game",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FishingHook",
+                "Fish",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "WinGame",
+                "",
+                "50",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Mobile Controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"MobileControls\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camera Boundaries",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "CameraBoundarysMarker_Left.BoundingBoxRight()",
+                "CameraBoundarysMarker_Top.BoundingBoxBottom()",
+                "CameraBoundarysMarker_Right.BoundingBoxLeft()",
+                "CameraBoundarysMarker_Bottom.BoundingBoxTop()",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Enemy AI",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "FishingHook",
+                "Grizzly",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Grizzly",
+                "Activated",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Grizzly",
+                "Activated",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "FishingHook",
+                "Grizzly",
+                "400",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Grizzly",
+                "Activated",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Grizzly",
+                "Activated",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Grizzly",
+                "Activated",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Grizzly",
+                "FishingHook.CenterX()",
+                "FishingHook.CenterY()",
+                "50",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "TopDownMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper"
+    }
+  ]
+}
