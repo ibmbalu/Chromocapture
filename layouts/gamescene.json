@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,19 +17,16 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.8993607583666738,
-    "windowMask": false
+    "snap": false,
+    "zoomFactor": 0.7370816317994359,
+    "windowMask": true
   },
   "objectsGroups": [
     {
       "name": "Hazards",
       "objects": [
         {
-          "name": "Poison"
-        },
-        {
-          "name": "Grizzly"
+          "name": "Chromo_Cytokines"
         }
       ]
     },
@@ -54,10 +51,10 @@
       "name": "Entities",
       "objects": [
         {
-          "name": "FishingHook"
+          "name": "Chromo_FishingHook"
         },
         {
-          "name": "Grizzly"
+          "name": "Chromo_Cytokines"
         }
       ]
     }
@@ -80,45 +77,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 736,
-      "layer": "Background",
-      "name": "Sand",
-      "persistentUuid": "824bc678-324f-48ff-aca1-99016ce82937",
-      "width": 1280,
-      "x": 0,
-      "y": 0,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "MobileControls",
-      "locked": true,
-      "name": "FlatLightJoystick",
-      "persistentUuid": "c51d2f52-5891-4f51-b03e-a2d73bb83619",
-      "sealed": true,
-      "width": 0,
-      "x": 144,
-      "y": 592,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 52,
       "layer": "UI",
-      "name": "Score",
+      "name": "Chromo_Score",
       "persistentUuid": "4073922b-fd39-487b-b30b-e9b39cb0058a",
       "width": 224,
-      "x": 32,
-      "y": 32,
+      "x": 12,
+      "y": 12,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -127,28 +93,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1280,
-      "layer": "",
-      "name": "CameraBoundarysMarker_Left",
-      "persistentUuid": "96ad8a48-fcd5-4b7d-a68f-b9dc382b1f32",
-      "width": 128,
-      "x": -128,
-      "y": -320,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 100,
       "layer": "",
       "name": "CameraBoundarysMarker_Bottom",
       "persistentUuid": "6657bf0f-bd0c-45e8-b369-af90211029ce",
-      "width": 1280,
-      "x": 0,
-      "y": 960,
+      "width": 1003,
+      "x": 167,
+      "y": 1219,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -157,13 +109,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 103.5,
+      "depth": 2,
+      "height": 57,
       "layer": "",
-      "name": "FishingHook",
+      "name": "Chromo_FishingHook",
       "persistentUuid": "cdf425cc-4af4-4f86-aaef-c0b8f3585f31",
-      "width": 103.5,
-      "x": 1024,
-      "y": 128,
+      "width": 60,
+      "x": 11,
+      "y": 79,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -172,13 +125,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1280,
+      "depth": 2,
+      "height": 1006,
       "layer": "",
       "name": "CameraBoundarysMarker_Right",
       "persistentUuid": "f64edeb2-ccd2-49ed-b0c7-4642f90bf986",
-      "width": 128,
-      "x": 2112,
-      "y": -320,
+      "width": 100,
+      "x": 2074,
+      "y": 102,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -187,28 +141,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
-      "layer": "",
-      "name": "Fish",
-      "persistentUuid": "ccdfc86f-e406-4d50-83ab-147de8d556d5",
-      "width": 128,
-      "x": 1792,
-      "y": 640,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 100,
       "layer": "",
       "name": "CameraBoundarysMarker_Top",
       "persistentUuid": "15bd47cb-a063-4db3-956c-72af75b88382",
-      "width": 1280,
-      "x": 0,
-      "y": -832,
+      "width": 1013,
+      "x": 158,
+      "y": -132,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -217,13 +157,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "3165c8e4-7b95-490f-aadc-feda90e600e6",
-      "width": 64,
-      "x": 1792,
-      "y": -64,
+      "width": 50,
+      "x": 1518,
+      "y": 487,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -232,13 +173,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "dec2c741-cf2a-480c-938b-d8796c798561",
-      "width": 64,
-      "x": 1792,
-      "y": -128,
+      "width": 50,
+      "x": 1518,
+      "y": 437,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,13 +189,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 42,
+      "depth": 2,
+      "height": 39,
       "layer": "",
-      "name": "Grizzly",
+      "name": "Chromo_Cytokines",
       "persistentUuid": "f44cf44b-4eaa-441f-8630-e3bc76dc2306",
-      "width": 64,
-      "x": 448,
-      "y": 192,
+      "width": 40,
+      "x": 659,
+      "y": 847,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,13 +205,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 42,
+      "depth": 2,
+      "height": 32,
       "layer": "",
-      "name": "Grizzly",
+      "name": "Chromo_Cytokines",
       "persistentUuid": "58ea9304-c8b4-4882-8d6c-361e69fe0014",
-      "width": 64,
-      "x": 1408,
-      "y": -192,
+      "width": 37,
+      "x": 1216,
+      "y": 387,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -277,13 +221,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "395c6a10-944e-4e2f-b2cb-7982b5d669f8",
-      "width": 64,
-      "x": 320,
-      "y": 128,
+      "width": 50,
+      "x": 355,
+      "y": 639,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,13 +237,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "6f9bdff0-8124-4bcc-af39-29e8bf21f590",
-      "width": 64,
-      "x": 448,
-      "y": 320,
+      "width": 50,
+      "x": 455,
+      "y": 791,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -307,13 +253,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "ad7a7cf8-5aee-4b11-9ee6-9678a187d911",
-      "width": 64,
-      "x": 512,
-      "y": 384,
+      "width": 50,
+      "x": 505,
+      "y": 842,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -322,13 +269,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "ffb78d72-6039-4bc1-96b7-8679f4ec15d9",
-      "width": 64,
-      "x": 384,
-      "y": 384,
+      "width": 50,
+      "x": 405,
+      "y": 842,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -337,13 +285,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "2a162dff-10f8-4aae-8b17-dabfc31c7f0a",
-      "width": 64,
-      "x": 320,
-      "y": 320,
+      "width": 50,
+      "x": 355,
+      "y": 791,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -352,13 +301,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "419b4658-6c04-4eac-8069-93cb4df03797",
-      "width": 64,
-      "x": 576,
-      "y": 128,
+      "width": 50,
+      "x": 559,
+      "y": 639,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -367,13 +317,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "de89ee92-cf1b-4eee-a899-ccfe39e8ee9c",
-      "width": 64,
-      "x": 512,
-      "y": 64,
+      "width": 50,
+      "x": 505,
+      "y": 589,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,13 +333,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "108faeaf-ce1a-498d-8304-6a125763398c",
-      "width": 64,
-      "x": 448,
-      "y": 128,
+      "width": 50,
+      "x": 455,
+      "y": 639,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -397,13 +349,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "9c2bb1d9-1331-4cc1-8cee-19f5f3eb344d",
-      "width": 64,
-      "x": 384,
-      "y": 64,
+      "width": 50,
+      "x": 405,
+      "y": 589,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -412,13 +365,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "2afe2df6-82eb-478b-b605-ceb9b8c24704",
-      "width": 64,
-      "x": 576,
-      "y": 320,
+      "width": 50,
+      "x": 559,
+      "y": 791,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -427,13 +381,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "7067652f-43b5-4332-9cd4-da09f7922ff6",
-      "width": 64,
-      "x": 1216,
-      "y": 768,
+      "width": 50,
+      "x": 1058,
+      "y": 1138,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -442,13 +397,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "a8bc5fcb-bc06-4017-a838-339647d7eea9",
-      "width": 64,
-      "x": 640,
-      "y": 64,
+      "width": 50,
+      "x": 607,
+      "y": 589,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -457,13 +413,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "2f23b549-483f-4ef9-a3df-d75f72eba4f6",
-      "width": 64,
-      "x": 256,
-      "y": 64,
+      "width": 50,
+      "x": 305,
+      "y": 589,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -472,13 +429,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "8dc762f6-3d7c-4145-acda-afe736660c2e",
-      "width": 64,
-      "x": 256,
-      "y": 384,
+      "width": 50,
+      "x": 305,
+      "y": 842,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -487,13 +445,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "b1ca3078-e3c2-4319-8d1b-544841681c76",
-      "width": 64,
-      "x": 960,
-      "y": 576,
+      "width": 50,
+      "x": 861,
+      "y": 994,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,13 +461,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "7ba631cc-1e94-437b-9121-37ae2112e32a",
-      "width": 64,
-      "x": 192,
-      "y": 768,
+      "width": 50,
+      "x": 253,
+      "y": 1138,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -517,13 +477,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "c8bd3763-b9a1-4475-99e0-bfd2bee47de7",
-      "width": 64,
-      "x": 704,
-      "y": 768,
+      "width": 50,
+      "x": 655,
+      "y": 1138,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -532,13 +493,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "cdc2fcbd-b6c0-4bf4-b269-f711d5243468",
-      "width": 64,
-      "x": 448,
-      "y": 576,
+      "width": 50,
+      "x": 455,
+      "y": 994,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -547,13 +509,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "4b0fd7be-2871-4193-a609-7c2e534e967c",
-      "width": 64,
-      "x": 1024,
-      "y": 704,
+      "width": 50,
+      "x": 912,
+      "y": 1094,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -562,13 +525,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "cc54aadd-3e86-4c7c-8955-2c3b536cf92c",
-      "width": 64,
-      "x": 768,
-      "y": 640,
+      "width": 50,
+      "x": 709,
+      "y": 1044,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -577,13 +541,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "79f1e1ec-169e-468d-b734-93ed7a99292b",
-      "width": 64,
-      "x": 832,
-      "y": 704,
+      "width": 50,
+      "x": 760,
+      "y": 1094,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -592,13 +557,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "ac9c1114-a5e4-4bbd-a5ce-e3cf94f2894d",
-      "width": 64,
-      "x": 896,
-      "y": 768,
+      "width": 50,
+      "x": 920,
+      "y": 724,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -607,13 +573,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "d056ec32-fda2-43be-adb9-1e08ff2a9c3e",
-      "width": 64,
-      "x": 1856,
-      "y": -576,
+      "width": 50,
+      "x": 1570,
+      "y": 85,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -622,13 +589,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "edade054-1744-4775-9978-958c95411615",
-      "width": 64,
-      "x": 1088,
-      "y": 640,
+      "width": 50,
+      "x": 1058,
+      "y": 938,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -637,13 +605,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "f10d8573-9211-4394-b762-d0cb65a609f2",
-      "width": 64,
-      "x": 256,
-      "y": 640,
+      "width": 50,
+      "x": 353,
+      "y": 904,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -652,13 +621,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "f7510a21-04c0-4aca-852e-2fb6053ca31e",
-      "width": 64,
-      "x": 320,
-      "y": 704,
+      "width": 50,
+      "x": 775,
+      "y": 833,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -667,13 +637,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "3097ed45-7bec-4484-8236-c907d5cce686",
-      "width": 64,
-      "x": 384,
-      "y": 768,
+      "width": 50,
+      "x": 457,
+      "y": 955,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -682,13 +653,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "b059fdfb-93d5-4d0e-84ed-26fad0488bf3",
-      "width": 64,
-      "x": 512,
-      "y": 704,
+      "width": 50,
+      "x": 505,
+      "y": 1094,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -697,13 +669,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "0eb872fa-63a6-48a4-a7ab-fefa164e58b7",
-      "width": 64,
-      "x": 640,
-      "y": 576,
+      "width": 50,
+      "x": 607,
+      "y": 994,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -712,13 +685,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "e9e0401d-c2a5-4ab0-a255-b81af3ef58bb",
-      "width": 64,
-      "x": 576,
-      "y": 640,
+      "width": 50,
+      "x": 559,
+      "y": 1044,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -727,43 +701,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 42,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "Grizzly",
-      "persistentUuid": "8dc69150-be53-4e32-9ee7-0beb03c25866",
-      "width": 64,
-      "x": 1408,
-      "y": 768,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 42,
-      "layer": "",
-      "name": "Grizzly",
-      "persistentUuid": "4c0041be-012b-45fc-afe7-f0a5e681b1cd",
-      "width": 64,
-      "x": 1408,
-      "y": 576,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 64,
-      "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "5bed512d-a7e3-4fbd-8793-568cfa29a01c",
-      "width": 64,
-      "x": 1152,
-      "y": 576,
+      "width": 50,
+      "x": 1012,
+      "y": 994,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -772,13 +717,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "fc7d40cc-a4a9-4a03-82b9-73949cfea638",
-      "width": 64,
-      "x": 1472,
-      "y": 320,
+      "width": 50,
+      "x": 1264,
+      "y": 791,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -787,13 +733,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "629780f9-1253-4e34-b53b-b62f32abab70",
-      "width": 64,
-      "x": 1536,
-      "y": 256,
+      "width": 50,
+      "x": 1316,
+      "y": 742,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -802,13 +749,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "4de0fa00-54cf-448e-8b9a-d439126d434f",
-      "width": 64,
-      "x": 1600,
-      "y": 320,
+      "width": 50,
+      "x": 1366,
+      "y": 791,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -817,13 +765,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "b244483e-fe5e-40db-b443-3f1f26827b54",
-      "width": 64,
-      "x": 1664,
-      "y": 384,
+      "width": 50,
+      "x": 1483,
+      "y": 787,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -832,13 +781,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "40df6c29-0708-4a3d-8d87-85acb9026cff",
-      "width": 64,
-      "x": 192,
-      "y": -576,
+      "width": 50,
+      "x": 714,
+      "y": 261,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -847,13 +797,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "fac9d2b2-7dbc-42f9-8320-96a8fc064681",
-      "width": 64,
-      "x": 128,
-      "y": -384,
+      "width": 50,
+      "x": 1418,
+      "y": 409,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -862,13 +813,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "f007f4e9-d966-48d4-935b-9e4eb3574a0f",
-      "width": 64,
-      "x": 192,
-      "y": -448,
+      "width": 50,
+      "x": 1211,
+      "y": 237,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -877,13 +829,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "2330078c-0b5a-4b10-8aa4-74996b4e58f2",
-      "width": 64,
-      "x": 128,
-      "y": -512,
+      "width": 50,
+      "x": 597,
+      "y": 288,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -892,13 +845,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "9537f6a8-febf-476c-88ff-e8d5ad8f1edc",
-      "width": 64,
-      "x": 1536,
-      "y": -576,
+      "width": 50,
+      "x": 1316,
+      "y": 85,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -907,13 +861,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "e4da185b-3175-43da-bb48-0d2decfe90f4",
-      "width": 64,
-      "x": 576,
-      "y": -256,
+      "width": 50,
+      "x": 559,
+      "y": 335,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -922,13 +877,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "9a1978d6-5fa1-4ae6-b33e-f8aad89044f6",
-      "width": 64,
-      "x": 512,
-      "y": -320,
+      "width": 50,
+      "x": 505,
+      "y": 285,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -937,13 +893,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "d7d84fe9-a0d4-4011-b8ac-33a25264d205",
-      "width": 64,
-      "x": 512,
-      "y": -384,
+      "width": 50,
+      "x": 505,
+      "y": 235,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -952,13 +909,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "190bc0a8-9519-4e74-ae6a-2afad9ff0ffc",
-      "width": 64,
-      "x": 576,
-      "y": -448,
+      "width": 50,
+      "x": 559,
+      "y": 185,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -967,13 +925,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "74aa1d51-c752-45a5-adf0-c10527e0131a",
-      "width": 64,
-      "x": 896,
-      "y": -576,
+      "width": 50,
+      "x": 809,
+      "y": 85,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -982,13 +941,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
       "name": "Poison",
       "persistentUuid": "f9650749-7860-4f23-b9a9-a2ec82a4f718",
-      "width": 64,
-      "x": 1216,
-      "y": -448,
+      "width": 50,
+      "x": 1063,
+      "y": 185,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -997,13 +957,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "a54c06f8-9d87-4708-9399-f6cfb326bfc3",
-      "width": 64,
-      "x": 1408,
-      "y": 192,
+      "width": 50,
+      "x": 1216,
+      "y": 690,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1012,13 +973,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "faef0ab7-82d0-4146-bbb7-cef527c59d17",
-      "width": 64,
-      "x": 1024,
-      "y": -192,
+      "width": 50,
+      "x": 912,
+      "y": 387,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1027,13 +989,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "e3411013-2344-452c-a049-ac86d6c1aa45",
-      "width": 64,
-      "x": 1728,
-      "y": -576,
+      "width": 50,
+      "x": 1468,
+      "y": 85,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1042,13 +1005,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "77d9db0f-4fce-48f9-a6e3-40ad1242f7ec",
-      "width": 64,
-      "x": 1792,
-      "y": -512,
+      "width": 50,
+      "x": 1518,
+      "y": 133,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1057,13 +1021,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "d5ba5117-e1bc-4f1f-aaa0-4f42cf160811",
-      "width": 64,
-      "x": 1664,
-      "y": -512,
+      "width": 50,
+      "x": 1418,
+      "y": 133,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1072,13 +1037,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "4497ede3-d66d-4341-8cc0-788b7d6ef8ae",
-      "width": 64,
-      "x": 768,
-      "y": -192,
+      "width": 50,
+      "x": 709,
+      "y": 387,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1087,13 +1053,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 64,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "WormBait",
+      "name": "Chromo_Oligomers",
       "persistentUuid": "915541af-b25b-4353-89f8-7b4633b8b6ac",
-      "width": 64,
-      "x": 896,
-      "y": -192,
+      "width": 50,
+      "x": 809,
+      "y": 387,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1102,13 +1069,828 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 2,
+      "height": 19,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "f9f61b05-c205-44b7-b7cb-8191023b15f8",
+      "width": 74,
+      "x": 922,
+      "y": 871,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "ebb9647e-079a-44ab-b8a5-3d834ecfcfa3",
+      "width": 40,
+      "x": 702,
+      "y": 117,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "196726b8-4acc-42a5-b4ad-99f2aab6acc8",
+      "width": 40,
+      "x": 1481,
+      "y": 598,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "eef2a33b-dddb-4dc0-b0f0-5a304ffab191",
+      "width": 40,
+      "x": 1588,
+      "y": 988,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "cebd779a-442c-4982-a6dd-c3137e728498",
+      "width": 40,
+      "x": 633,
+      "y": 1093,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "86ee1300-59fc-4ae5-9ece-17d658f07074",
+      "width": 40,
+      "x": 475,
+      "y": 1015,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "43e05437-7e8e-4277-b2b2-f6d940f792d4",
+      "width": 40,
+      "x": 155,
+      "y": 329,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 54,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "92137794-bf90-4b54-9ce0-59e8e3a6e921",
+      "width": 128,
+      "x": 876,
+      "y": 578,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Endpoint",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "ee3452fd-00f4-48c1-a15e-3f66c7c6e96c",
+      "width": 40,
+      "x": 265,
+      "y": 208,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "2d2f32c1-f148-4a42-9844-acb7bd47832b",
+      "width": 40,
+      "x": 413,
+      "y": 786,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 170,
+      "customSize": true,
+      "depth": 2,
+      "height": 94,
+      "layer": "",
+      "name": "Chromo_Dna2",
+      "persistentUuid": "863cb27a-9bcf-4b30-b728-cf944e13be1e",
+      "width": 85,
+      "x": 1045,
+      "y": 764,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 151,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "8128b0b5-c76b-4c82-9512-9e031564dae3",
+      "width": 42,
+      "x": 1043,
+      "y": 157,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "f4682c31-068d-4eff-b736-0462f12b11ab",
+      "width": 42,
+      "x": 1600,
+      "y": 500,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 69,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "cf685923-618b-4d26-af82-e8054808e946",
+      "width": 42,
+      "x": 1264,
+      "y": 518,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 151,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "bfe39b41-c153-4e33-aeb1-3a759e996f63",
+      "width": 42,
+      "x": 1271,
+      "y": 243,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "546e4f5f-f18d-4edd-b9a2-e425751e7062",
+      "width": 40,
+      "x": 482,
+      "y": 517,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "fb262e7d-c8c9-48ed-b41a-65d6310fd6a6",
+      "width": 40,
+      "x": 1114,
+      "y": 451,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "c480bb44-8d17-483f-9a85-5e30fa72d137",
+      "width": 40,
+      "x": 1541,
+      "y": 804,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "1aec30ed-11f2-486e-a559-44fdbf8cf3ba",
+      "width": 40,
+      "x": 1673,
+      "y": 618,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 57,
+      "customSize": true,
+      "depth": 2,
+      "height": 44,
+      "layer": "",
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "a10e0afc-1d76-4123-9dfd-1f49d9ef6179",
+      "width": 44,
+      "x": 681,
+      "y": 563,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 57,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "b5eee756-231e-453a-8085-e212d6b82299",
+      "width": 36,
+      "x": 623,
+      "y": 907,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 126,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "a2c35d4e-cb06-4f10-98c8-4cccfa91deb4",
+      "width": 36,
+      "x": 759,
+      "y": 529,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 208,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "f575d79e-d46e-4ea1-a1ad-111b893c82ec",
+      "width": 36,
+      "x": 379,
+      "y": 216,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 162,
+      "layer": "",
+      "name": "Chromo_Dna2",
+      "persistentUuid": "c407ed81-e3af-4a0a-991a-f7969629c990",
+      "width": 142,
+      "x": 423,
+      "y": 180,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "c8f1073e-2426-4c26-aa18-a217444cf8b6",
+      "width": 42,
+      "x": 1348,
+      "y": 274,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 69,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "55a90fcc-57e3-46f3-9744-3841a2c7ec28",
+      "width": 42,
+      "x": 1452,
+      "y": 279,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 29,
+      "customSize": true,
+      "depth": 2,
+      "height": 29,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "2d88acca-6860-4e02-a38b-b57cfd7fd873",
+      "width": 74,
+      "x": 1190,
+      "y": 566,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 264,
+      "customSize": true,
+      "depth": 2,
+      "height": 29,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "0c01a9c6-613a-4ed9-a464-fc5979199102",
+      "width": 74,
+      "x": 659,
+      "y": 684,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 29,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "35977bd8-95b4-4a98-9310-58ebf4a3e892",
+      "width": 74,
+      "x": 995,
+      "y": 359,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 29,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "53616e4c-bb41-425b-9aa6-ab850b3cf21b",
+      "width": 74,
+      "x": 189,
+      "y": 857,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "39332277-2796-467b-b157-39d5214b9024",
+      "width": 128,
+      "x": 801,
+      "y": 959,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 92,
+      "customSize": true,
+      "depth": 2,
+      "height": 57,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "8d3a8406-ffda-4bc0-8164-4c10f4c323a0",
+      "width": 181,
+      "x": 1497,
+      "y": 619,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
       "height": 128,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "e3cc8ccf-2a84-418f-8180-0ed1290d34f9",
-      "width": 320,
-      "x": 1536,
-      "y": 128,
+      "name": "Chromo_DNA2",
+      "persistentUuid": "661a35f4-d9bf-436c-b4cb-c1b905849414",
+      "width": 24,
+      "x": 1326,
+      "y": 480,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "fef675bc-04b1-4fb3-8982-7d51347687e6",
+      "width": 40,
+      "x": 996,
+      "y": 388,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 39,
+      "layer": "",
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "6c4b9dce-9d40-4d7f-9f6e-d458690a5791",
+      "width": 40,
+      "x": 1239,
+      "y": 817,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 126,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "22269425-b3df-4f0b-af41-c5fbc0d3286b",
+      "width": 36,
+      "x": 853,
+      "y": 742,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 126,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "039d95e2-e1c7-4712-9dde-3b27ad3e41e8",
+      "width": 36,
+      "x": 518,
+      "y": 692,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 126,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "30bf54a5-98a7-47ad-a0e3-671714d14e8f",
+      "width": 36,
+      "x": 139,
+      "y": 685,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 264,
+      "customSize": true,
+      "depth": 2,
+      "height": 29,
+      "layer": "",
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "61738444-5534-40e1-a766-2b0ac3a9ea67",
+      "width": 74,
+      "x": 584,
+      "y": 430,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 61,
+      "customSize": true,
+      "depth": 2,
+      "height": 234,
+      "layer": "",
+      "name": "Chromo_Chromosome_2",
+      "persistentUuid": "e8fc020d-dc4c-4b22-8ff9-ab88ad00e624",
+      "width": 55,
+      "x": 1655,
+      "y": 639,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 57,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "e7d2c25e-0d37-46f7-b29d-b3ab5a6f9312",
+      "width": 181,
+      "x": 977,
+      "y": 253,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 92,
+      "customSize": true,
+      "depth": 2,
+      "height": 57,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "98dd1d9e-6135-4b7d-b4af-fdb422c9bee3",
+      "width": 181,
+      "x": 195,
+      "y": 784,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 57,
+      "layer": "",
+      "name": "Chromo_DNA",
+      "persistentUuid": "143d6c7a-49c2-4dea-9159-20a3fc82a3b6",
+      "width": 181,
+      "x": 1483,
+      "y": 382,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Endpoint",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 330,
+      "customSize": true,
+      "depth": 2,
+      "height": 165,
+      "layer": "",
+      "name": "Chromo_Chromosome3",
+      "persistentUuid": "182ba242-3f16-4c94-8480-8e88edc27f4e",
+      "width": 55,
+      "x": 1680,
+      "y": 794,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 165,
+      "layer": "",
+      "name": "Chromo_Chromosome_1",
+      "persistentUuid": "c399ab8c-2a1e-407a-8776-5869c6f7db4a",
+      "width": 61,
+      "x": 1513,
+      "y": 838,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 86,
+      "customSize": true,
+      "depth": 2,
+      "height": 162,
+      "layer": "",
+      "name": "Chromo_Dna2",
+      "persistentUuid": "b74cd114-90c3-46d3-9538-b5386e061c00",
+      "width": 142,
+      "x": 1108,
+      "y": 356,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1189,
+      "layer": "",
+      "name": "Chromo_Cell_wall",
+      "persistentUuid": "9e6332d1-6616-428e-b22d-9199a9d6638c",
+      "width": 2021,
+      "x": 18,
+      "y": 48,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 50,
+      "layer": "",
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "c9030f05-8457-45f1-b573-d0ce7c3f1c6e",
+      "width": 50,
+      "x": 805,
+      "y": 619,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 50,
+      "layer": "",
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "26985941-0ebd-4a71-b24f-e960ded51b6e",
+      "width": 50,
+      "x": 317,
+      "y": 448,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 50,
+      "layer": "",
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "f6833b73-0091-418f-9834-b7932f24b23d",
+      "width": 50,
+      "x": 520,
+      "y": 448,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 50,
+      "layer": "",
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "571d9830-770b-4fc4-bc5c-def82684cdec",
+      "width": 50,
+      "x": 322,
+      "y": 322,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -1117,14 +1899,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1664,
+      "depth": 1,
+      "height": 188,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "9b3d18c0-d3ef-4aa4-9d70-5e7f343d7168",
-      "width": 128,
-      "x": 0,
-      "y": -704,
-      "zOrder": 26,
+      "name": "Chromo_DNA2",
+      "persistentUuid": "9914888f-9856-4021-bfed-8c4936f1c190",
+      "width": 31,
+      "x": 191,
+      "y": 313,
+      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1132,14 +1915,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1664,
+      "depth": 2,
+      "height": 39,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "6b11816c-7a7e-46f8-a038-d99a4e0ce4c0",
-      "width": 128,
-      "x": 1984,
-      "y": -704,
-      "zOrder": 26,
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "8bd66d9a-59d0-4b9a-959a-1884354cbad0",
+      "width": 40,
+      "x": 294,
+      "y": 655,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1147,44 +1931,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "76a6202d-d7ca-4328-ac8d-2873ff3049d3",
-      "width": 2112,
-      "x": 0,
-      "y": -704,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "0217fa96-2d24-4d66-b199-04f1a7532c75",
-      "width": 2112,
-      "x": 0,
-      "y": 832,
-      "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
-      "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "f9f97a02-d702-4306-9a4d-ab8439e98a16",
-      "width": 1600,
-      "x": 256,
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "d0296b90-9a2c-4166-bf60-f048c944596e",
+      "width": 50,
+      "x": 417,
       "y": 448,
-      "zOrder": 17,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1192,14 +1947,31 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 50,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "4d416e9d-6cc9-452a-81e5-e57b22051452",
-      "width": 1408,
-      "x": 256,
-      "y": -64,
-      "zOrder": 17,
+      "name": "Chromo_Oligomers",
+      "persistentUuid": "3db59508-dd33-47fb-b25d-8dcdedc4e9da",
+      "width": 50,
+      "x": 209,
+      "y": 536,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 126,
+      "customSize": true,
+      "depth": 2,
+      "height": 32,
+      "layer": "",
+      "name": "Chromo_Ribosomes",
+      "persistentUuid": "20ea5c4d-3110-49d2-b948-f5519e56416f",
+      "width": 36,
+      "x": 817,
+      "y": 241,
+      "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1207,14 +1979,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 29,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "4108ebf4-7639-409e-80a4-42a0c8a8ce03",
-      "width": 1280,
-      "x": 576,
-      "y": -384,
-      "zOrder": 17,
+      "name": "Chromo_NewSprite",
+      "persistentUuid": "d28fc5e7-9466-4d31-b4ec-a17407f17c2f",
+      "width": 74,
+      "x": 1048,
+      "y": 618,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1222,14 +1995,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 640,
+      "depth": 1,
+      "height": 129,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "3379f7e9-4dd3-4f7c-a428-8563e75fc336",
-      "width": 128,
-      "x": 1536,
-      "y": -384,
-      "zOrder": 18,
+      "name": "Chromo_gDNA_empty",
+      "persistentUuid": "078ac963-da27-484e-b01d-ec1ff39f5bad",
+      "width": 52,
+      "x": 1906,
+      "y": -28,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1237,14 +2011,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 512,
+      "depth": 1,
+      "height": 156,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "86830e80-7068-4485-80b7-065b22d43dfa",
-      "width": 256,
-      "x": 1472,
-      "y": 448,
-      "zOrder": 18,
+      "name": "Chromo_gDNA_full",
+      "persistentUuid": "dbcd3358-ed58-4ebb-8c15-dcdabc03a2f3",
+      "width": 81,
+      "x": 1898,
+      "y": -49,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "Chromo_Nucleus",
+      "persistentUuid": "352901e8-250c-446b-be3f-462ff0796caf",
+      "width": 0,
+      "x": 3169,
+      "y": 1132,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1252,14 +2042,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 2,
+      "height": 39,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "7f28c981-d532-4fde-904d-834d5821fa91",
-      "width": 256,
-      "x": 1856,
-      "y": -128,
-      "zOrder": 17,
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "98da07f5-3dd6-4148-9f58-7591e8219278",
+      "width": 40,
+      "x": 861,
+      "y": 980,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1267,59 +2058,45 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 448,
+      "depth": 2,
+      "height": 39,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "010e0332-cc13-4288-aa5c-7da940205675",
-      "width": 128,
-      "x": 1728,
-      "y": 128,
-      "zOrder": 18,
+      "name": "Chromo_Cytokines",
+      "persistentUuid": "ef23d16c-daa4-4141-8944-f6df14bdea89",
+      "width": 40,
+      "x": 794,
+      "y": 684,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "height": 448,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "56874745-66a0-4863-8eff-ea8bca389985",
-      "width": 128,
-      "x": 256,
-      "y": -704,
-      "zOrder": 17,
+      "name": "Chromo_Nucleus",
+      "persistentUuid": "c24cad96-2223-46d7-a5a8-98e21c1ddc74",
+      "width": 0,
+      "x": 1145,
+      "y": 437,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "height": 384,
+      "angle": 181,
+      "customSize": false,
+      "height": 0,
       "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "2fcb5330-f698-4e30-a33c-764bfd4bb880",
-      "width": 256,
-      "x": 704,
-      "y": -64,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 384,
-      "layer": "",
-      "name": "GrassandSand",
-      "persistentUuid": "7f14fae7-9680-4893-8579-460e07ea4e85",
-      "width": 256,
-      "x": 1152,
-      "y": 192,
-      "zOrder": 16,
+      "name": "Chromo_Nucleus",
+      "persistentUuid": "01e0df63-b72e-4b66-a88d-17ec0a636a01",
+      "width": 0,
+      "x": 1164,
+      "y": 800,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1327,281 +2104,10 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FishingHook",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
-          "FollowOnX": true,
-          "FollowOnY": true,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 0,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 0,
-          "LogRightwardSpeed": 0,
-          "LogDownwardSpeed": 0,
-          "LogUpwardSpeed": 0,
-          "DelayedCenterX": 0,
-          "DelayedCenterY": 0,
-          "ForecastHistoryMeanX": 0,
-          "ForecastHistoryMeanY": 0,
-          "ForecastHistoryVarianceX": 0,
-          "ForecastHistoryCovariance": 0,
-          "ForecastHistoryLinearA": 0,
-          "ForecastHistoryLinearB": 0,
-          "ForecastedX": 0,
-          "ForecastedY": 0,
-          "ProjectedNewestX": 0,
-          "ProjectedNewestY": 0,
-          "ProjectedOldestX": 0,
-          "ProjectedOldestY": 0,
-          "ForecastHistoryVarianceY": 0,
-          "Index": 0,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 0,
-          "WaitingSpeedXMax": 0,
-          "WaitingSpeedYMax": 0,
-          "WaitingEnd": 0,
-          "CameraDelayCatchUpDuration": 0,
-          "LeftwardSpeedMax": 9000,
-          "RightwardSpeedMax": 9000,
-          "UpwardSpeedMax": 9000,
-          "DownwardSpeedMax": 9000,
-          "OldX": 9000,
-          "OldY": 9000,
-          "IsCalledManually": false
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 800,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 2000,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 250,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        },
-        {
-          "name": "TopDownMultitouchMapper",
-          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
-          "TopDownMovement": "TopDownMovement",
-          "ControllerIdentifier": 1,
-          "JoystickIdentifier": "Primary",
-          "StickMode": "Analog"
-        }
-      ],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fishing Hook_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 29
-                      },
-                      {
-                        "x": 3,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fishing Hook_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 29
-                      },
-                      {
-                        "x": 3,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Fish",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fish.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 6
-                      },
-                      {
-                        "x": 31,
-                        "y": 6
-                      },
-                      {
-                        "x": 31,
-                        "y": 27
-                      },
-                      {
-                        "x": 1,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 128,
-      "name": "Sand",
-      "texture": "tiled_Sand.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 128,
-      "height": 384,
-      "leftMargin": 128,
-      "name": "GrassandSand",
-      "rightMargin": 128,
-      "texture": "9patch_Grass and Sand_all_128.png",
-      "tiled": true,
-      "topMargin": 128,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 384,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "",
       "height": 128,
       "name": "CameraBoundarysMarker_Left",
-      "texture": "assets\\BlueCheckered.png",
+      "texture": "3b396924ae67f30d1cf5e67b6b67cf00bd6337d9d695765bed021c961593efd8_Full Flask Variant 1_No Shadow.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -1612,7 +2118,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "CameraBoundarysMarker_Right",
-      "texture": "assets\\BlueCheckered.png",
+      "texture": "b6ea50aa5ea3e03d1c546797dda896473e2a0df3bada295335e835b17fdb239f_Empty Flask Variant 1_Shadow.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -1623,7 +2129,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "CameraBoundarysMarker_Top",
-      "texture": "assets\\BlueCheckered.png",
+      "texture": "74e3d7560ba097d736592e41a2a58c8fcf80eadb161125633a2f18f33b343e84_Empty Flask Variant 3_Shadow.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -1634,7 +2140,7 @@
       "assetStoreId": "",
       "height": 128,
       "name": "CameraBoundarysMarker_Bottom",
-      "texture": "assets\\BlueCheckered.png",
+      "texture": "166116fa4dab8e349df4a229a5483177cfc6a88234debe3b040aec3c91d396db_Horse_No Shadow.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -1642,976 +2148,30 @@
       "behaviors": []
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Poison",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Poison_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 29
-                      },
-                      {
-                        "x": 3,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Poison_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 3
-                      },
-                      {
-                        "x": 29,
-                        "y": 29
-                      },
-                      {
-                        "x": 3,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Grizzly",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "bold": false,
+      "italic": false,
+      "name": "Chromo_Score",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [
         {
-          "folded": true,
-          "name": "Activated",
-          "type": "boolean",
-          "value": false
+          "name": "Variable",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Idle.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Attack",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Attack_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Attack_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Attack_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Attack_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Attack_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sleeping",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Sleeping.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Wakeup",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.3333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Wakeup_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Wakeup_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Wakeup_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walking",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Grizzly_Walking_6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 10
-                      },
-                      {
-                        "x": 42,
-                        "y": 32
-                      },
-                      {
-                        "x": 7,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "WormBait",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Worm Bait_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 29
-                      },
-                      {
-                        "x": 6,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Worm Bait_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 29
-                      },
-                      {
-                        "x": 6,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "c7a381f15f0bb07adc63d78850702df44e8328a15db1ecb10ca1503491ed22a0",
-      "name": "FlatLightJoystick",
-      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Border": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Flat light joystick border.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        "Thumb": {
-          "adaptCollisionMaskAutomatically": false,
-          "updateIfNotVisible": false,
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Flat light joystick thumb.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
       "string": "Score: 0",
-      "font": "",
+      "font": "Sniglet-ExtraBold.ttf",
       "textAlignment": "left",
-      "characterSize": 40,
+      "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 25,
+        "g": 25,
+        "r": 192
       },
       "content": {
         "bold": false,
@@ -2628,28 +2188,488 @@
         "smoothed": true,
         "underlined": false,
         "text": "Score: 0",
+        "font": "Sniglet-ExtraBold.ttf",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "192;25;25"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mitochondrium-orangebright.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 214,
+                        "y": 3
+                      },
+                      {
+                        "x": 214,
+                        "y": 106
+                      },
+                      {
+                        "x": 4,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Chromo_aquatic",
+      "texture": "3ce4804045bbc71b0dcd1300ae215472245088a50ba5b76a17fc33c989df8edb_water waterfall bright desat surface.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Chromo_NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 40,
-        "color": "255;255;255"
+        "characterSize": 20,
+        "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Ribosomes",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ribosomes_480.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 13
+                      },
+                      {
+                        "x": 435,
+                        "y": 13
+                      },
+                      {
+                        "x": 435,
+                        "y": 477
+                      },
+                      {
+                        "x": 3,
+                        "y": 477
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Nucleus",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Nucleus_crop2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 770,
+                        "y": 0
+                      },
+                      {
+                        "x": 770,
+                        "y": 364
+                      },
+                      {
+                        "x": 0,
+                        "y": 364
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Cell_wall",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cell_wall.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 9
+                      },
+                      {
+                        "x": 2980,
+                        "y": 9
+                      },
+                      {
+                        "x": 2980,
+                        "y": 2080
+                      },
+                      {
+                        "x": 5,
+                        "y": 2080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_NewSprite3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Nucleus_crop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 770,
+                        "y": 0
+                      },
+                      {
+                        "x": 770,
+                        "y": 364
+                      },
+                      {
+                        "x": 0,
+                        "y": 364
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_gDNA_full",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "gDNA full2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 34,
+                        "y": 16
+                      },
+                      {
+                        "x": 211,
+                        "y": 16
+                      },
+                      {
+                        "x": 211,
+                        "y": 456
+                      },
+                      {
+                        "x": 34,
+                        "y": 456
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_gDNA_empty",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "gDNAempty.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 11
+                      },
+                      {
+                        "x": 135,
+                        "y": 11
+                      },
+                      {
+                        "x": 135,
+                        "y": 407
+                      },
+                      {
+                        "x": 21,
+                        "y": 407
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "FishingHook"
-      },
-      {
-        "objectName": "Fish"
-      },
-      {
-        "objectName": "Sand"
-      },
-      {
-        "objectName": "GrassandSand"
-      },
       {
         "objectName": "CameraBoundarysMarker_Left"
       },
@@ -2663,19 +2683,34 @@
         "objectName": "CameraBoundarysMarker_Bottom"
       },
       {
-        "objectName": "Poison"
+        "objectName": "Chromo_Ribosomes"
       },
       {
-        "objectName": "Grizzly"
+        "objectName": "Chromo_NewText"
       },
       {
-        "objectName": "WormBait"
+        "objectName": "Chromo_Score"
       },
       {
-        "objectName": "FlatLightJoystick"
+        "objectName": "Chromo_NewSprite"
       },
       {
-        "objectName": "Score"
+        "objectName": "Chromo_aquatic"
+      },
+      {
+        "objectName": "Chromo_Nucleus"
+      },
+      {
+        "objectName": "Chromo_Cell_wall"
+      },
+      {
+        "objectName": "Chromo_NewSprite3"
+      },
+      {
+        "objectName": "Chromo_gDNA_full"
+      },
+      {
+        "objectName": "Chromo_gDNA_empty"
       }
     ]
   },
@@ -2699,7 +2734,7 @@
           },
           "parameters": [
             "",
-            "FishingHook",
+            "Chromo_FishingHook",
             "",
             "",
             ""
@@ -2710,9 +2745,17 @@
             "value": "ChangePlan"
           },
           "parameters": [
-            "FishingHook",
+            "Chromo_FishingHook",
             "=",
             "1000"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Chromo_gDNA_full"
           ]
         }
       ],
@@ -2728,65 +2771,14 @@
               "parameters": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "FlatLightJoystick",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TiledSpriteObject::Width"
-          },
-          "parameters": [
-            "Sand",
-            "=",
-            "CameraWidth()"
-          ]
-        },
-        {
-          "type": {
-            "value": "TiledSpriteObject::XOffset"
-          },
-          "parameters": [
-            "Sand",
-            "=",
-            "CameraCenterX()"
-          ]
-        },
-        {
-          "type": {
-            "value": "TiledSpriteObject::YOffset"
-          },
-          "parameters": [
-            "Sand",
-            "=",
-            "CameraCenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SeparateFromObjects"
-          },
-          "parameters": [
-            "Entities",
-            "GrassandSand",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -2805,8 +2797,8 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "FishingHook",
-                "WormBait",
+                "Chromo_FishingHook",
+                "Chromo_Oligomers",
                 "",
                 "",
                 "yes"
@@ -2860,7 +2852,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "WormBait",
+                "Chromo_Oligomers",
                 ""
               ]
             },
@@ -2869,9 +2861,529 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "Score",
+                "Chromo_Score",
                 "=",
                 "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_DNA",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_DNA",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_DNA2",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_DNA2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_Dna2",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_Dna2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_Chromosome_1",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_Chromosome_1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_Chromosome_2",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_Chromosome_2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_Chromosome3",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1000"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Chromo_Chromosome3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Chromo_Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Chromo_FishingHook",
+                "Chromo_gDNA_empty",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Score",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Chromo_gDNA_empty"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Chromo_gDNA_full",
+                ""
               ]
             }
           ]
@@ -2953,7 +3465,7 @@
               },
               "parameters": [
                 "",
-                "FishingHook",
+                "Chromo_FishingHook",
                 "=",
                 "0"
               ]
@@ -3001,11 +3513,21 @@
           "conditions": [
             {
               "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Score",
+                ">",
+                "2500"
+              ]
+            },
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
-                "FishingHook",
-                "Fish",
+                "Chromo_FishingHook",
+                "Chromo_gDNA_full",
                 "",
                 "",
                 ""
@@ -3029,6 +3551,15 @@
                 "",
                 "50",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Conclusion\""
               ]
             }
           ]
@@ -3125,8 +3656,8 @@
                 "value": "Distance"
               },
               "parameters": [
-                "FishingHook",
-                "Grizzly",
+                "Chromo_FishingHook",
+                "Chromo_Cytokines",
                 "300",
                 ""
               ]
@@ -3136,7 +3667,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Grizzly",
+                "Chromo_Cytokines",
                 "Activated",
                 ""
               ]
@@ -3148,7 +3679,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Grizzly",
+                "Chromo_Cytokines",
                 "Activated",
                 "True"
               ]
@@ -3164,8 +3695,8 @@
                 "value": "Distance"
               },
               "parameters": [
-                "FishingHook",
-                "Grizzly",
+                "Chromo_FishingHook",
+                "Chromo_Cytokines",
                 "400",
                 ""
               ]
@@ -3175,7 +3706,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Grizzly",
+                "Chromo_Cytokines",
                 "Activated",
                 "True"
               ]
@@ -3187,7 +3718,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Grizzly",
+                "Chromo_Cytokines",
                 "Activated",
                 "False"
               ]
@@ -3202,7 +3733,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Grizzly",
+                "Chromo_Cytokines",
                 "Activated",
                 "True"
               ]
@@ -3214,9 +3745,9 @@
                 "value": "AddForceVersPos"
               },
               "parameters": [
-                "Grizzly",
-                "FishingHook.CenterX()",
-                "FishingHook.CenterY()",
+                "Chromo_Cytokines",
+                "Chromo_FishingHook.CenterX()",
+                "Chromo_FishingHook.CenterY()",
                 "50",
                 ""
               ]
@@ -3289,33 +3820,40 @@
       "visibility": true,
       "cameras": [],
       "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "cameraType": "perspective",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "MobileControls",
-      "renderingType": "",
-      "visibility": false,
-      "cameras": [],
-      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
-      "name": "Platform",
-      "type": "PlatformBehavior::PlatformBehavior"
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     },
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",

@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "WelcomeScene",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -469,13 +469,1986 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/ba0721585aa6f8d46cd08c7b5dfbeb7f277652339de14df893c69216dec2a072_Worm Bait_Shadow.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mitochondrium-orangebright.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mitochondrium-orangebright.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fishing Hook_Shadow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8eccb966e5f85e48b91c2b8d197b3cdb0338b7320abf7bd5975a7bb4b0d0d9a7_Fishing Hook_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Fishing Items/8eccb966e5f85e48b91c2b8d197b3cdb0338b7320abf7bd5975a7bb4b0d0d9a7_Fishing Hook_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nucleus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nucleus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mitochondrium-orangebright2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mitochondrium-orangebright2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "microtuble.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "microtuble.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot from 2024-02-15 02-45-02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot from 2024-02-15 02-45-02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chromosome-gray.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chromosome-gray.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water cave bright surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bd58eb10f49c6ece2f5ee58916f184c7c97bb95f10c614d7416c30177e16da7c_water cave bright surface.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/bd58eb10f49c6ece2f5ee58916f184c7c97bb95f10c614d7416c30177e16da7c_water cave bright surface.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water waterfall bright desat surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3ce4804045bbc71b0dcd1300ae215472245088a50ba5b76a17fc33c989df8edb_water waterfall bright desat surface.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/3ce4804045bbc71b0dcd1300ae215472245088a50ba5b76a17fc33c989df8edb_water waterfall bright desat surface.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water waterfall bright desat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "290ca4aa3aad452ca3cfc0386ff2b2766b75771017bd1ae99243b9e5b4005933_water waterfall bright desat.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/290ca4aa3aad452ca3cfc0386ff2b2766b75771017bd1ae99243b9e5b4005933_water waterfall bright desat.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/water waterfall bright surface.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5ababac08a688ee85d055375da3f15216edfc9c1e1f07edfa265778588f3a8d1_water waterfall bright surface.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/RC Art - Water Aqua System/BG Water/5ababac08a688ee85d055375da3f15216edfc9c1e1f07edfa265778588f3a8d1_water waterfall bright surface.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nucleus2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nucleus2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dna-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dna-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mitochondrium-orangebright3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mitochondrium-orangebright3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Grass and Sand_all_129.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02069d46438112476136caad7bcf892a581133f1b191ae4b6aa5dc09bd4e18ff_9patch_Grass and Sand_all_128.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/02069d46438112476136caad7bcf892a581133f1b191ae4b6aa5dc09bd4e18ff_9patch_Grass and Sand_all_128.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cellule_vide_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cellule_vide_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Orb_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "56d4ace5a22e0292d1c580d0c1fff0456390a12aa51aa7ba953e1836935c02b7_Red Orb_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Orbs/56d4ace5a22e0292d1c580d0c1fff0456390a12aa51aa7ba953e1836935c02b7_Red Orb_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/FrederickatheGreat-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/LakkiReddy-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Bordered Hud_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "998f3521bccc8b5fedee0a2f6891d6c2604964a6cb048c4858575443b3634f4d_9patch_Bordered Hud_all_32.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/998f3521bccc8b5fedee0a2f6891d6c2604964a6cb048c4858575443b3634f4d_9patch_Bordered Hud_all_32.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "membrane-3d-orangelightgreen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "membrane-3d-orangelightgreen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "membrane-3d-orangelightgreen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "membrane-3d-orangelightgreen2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dna-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dna-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ribosomes_480.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ribosomes_480.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dna-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dna-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chromosome-gray2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chromosome-gray2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chromosome 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chromosome 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Chromosome 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chromosome 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nucleus3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nucleus3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": " Nucleus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": " Nucleus.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chromosome1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chromosome1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chromosome2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chromosome2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chromosome3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chromosome3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nucleus2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nucleus2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cell wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cell wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cell wall2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cell wall2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nucleus_crop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nucleus_crop.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../../home/bala/Pictures/Cell_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../home/bala/Pictures/Cell_wall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cell_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cell_wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Snowflake_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3502f03553fa538328c80f7f719146ada904f0a0236dccfc3d323c4531c00408_Snowflake_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/3502f03553fa538328c80f7f719146ada904f0a0236dccfc3d323c4531c00408_Snowflake_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Empty Flask Variant 1_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b6ea50aa5ea3e03d1c546797dda896473e2a0df3bada295335e835b17fdb239f_Empty Flask Variant 1_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/b6ea50aa5ea3e03d1c546797dda896473e2a0df3bada295335e835b17fdb239f_Empty Flask Variant 1_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Empty Flask Variant 3_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "74e3d7560ba097d736592e41a2a58c8fcf80eadb161125633a2f18f33b343e84_Empty Flask Variant 3_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/74e3d7560ba097d736592e41a2a58c8fcf80eadb161125633a2f18f33b343e84_Empty Flask Variant 3_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Horse_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "166116fa4dab8e349df4a229a5483177cfc6a88234debe3b040aec3c91d396db_Horse_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/166116fa4dab8e349df4a229a5483177cfc6a88234debe3b040aec3c91d396db_Horse_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Full Flask Variant 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3b396924ae67f30d1cf5e67b6b67cf00bd6337d9d695765bed021c961593efd8_Full Flask Variant 1_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/New Icons/3b396924ae67f30d1cf5e67b6b67cf00bd6337d9d695765bed021c961593efd8_Full Flask Variant 1_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gDNA full.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gDNA full.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gDNA empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gDNA empty.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gDNA full2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gDNA full2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gDNAempty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gDNAempty.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "nucleus4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nucleus4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nucleus_crop-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nucleus_crop-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nucleus_crop2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nucleus_crop2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nucleus_crop-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nucleus_crop-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Sniglet-ExtraBold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-ExtraBold.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Sniglet-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Sniglet-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Jelly Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Jelly Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5cc04ef76aad172a63070469c328ceb3f74207115ad9c2321ccfe0d5755677a0_Yellow Jelly Button_Hovered.png",
+          "name": "Yellow Jelly Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Jelly Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Jelly Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/04f6f22d3160fa528875b199bb7bd4f35cf3f20fb8fde4a5d960f01df9bee3a3_Yellow Jelly Button_Idle.png",
+          "name": "Yellow Jelly Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Jelly Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Jelly Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/11abe8b7d577c30b71789404003c50b3fe73d63492fd30669a5153bc67ac0a60_Yellow Jelly Button_Pressed.png",
+          "name": "Yellow Jelly Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Rubik-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Rubik-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/edbc88d46437d6403d3670eb084bcbdf08872c9f54a34ed1536c1013c412bd3b_Rubik-Regular.ttf",
+          "name": "Rubik-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Cytokines",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Activated",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "56d4ace5a22e0292d1c580d0c1fff0456390a12aa51aa7ba953e1836935c02b7_Red Orb_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Attack_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sleeping",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Sleeping.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wakeup",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Wakeup_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grizzly_Walking_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 28
+                      },
+                      {
+                        "x": 4,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_FishingHook",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 800,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 2000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 250,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "viewpoint": "TopDown"
+        },
+        {
+          "name": "TopDownMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::TopDownMultitouchMapper",
+          "TopDownMovement": "TopDownMovement",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "StickMode": "Analog"
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fishing Hook_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fishing Hook_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Oligomers",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Worm Bait_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 6,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Worm Bait_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 6,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_DNA",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dna-7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 226,
+                        "y": 0
+                      },
+                      {
+                        "x": 226,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Worm Bait_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 226,
+                        "y": 0
+                      },
+                      {
+                        "x": 226,
+                        "y": 71
+                      },
+                      {
+                        "x": 0,
+                        "y": 71
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_DNA2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dna-4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 5
+                      },
+                      {
+                        "x": 74,
+                        "y": 5
+                      },
+                      {
+                        "x": 74,
+                        "y": 305
+                      },
+                      {
+                        "x": 2,
+                        "y": 305
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Dna2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dna-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 181,
+                        "y": 0
+                      },
+                      {
+                        "x": 181,
+                        "y": 201
+                      },
+                      {
+                        "x": 0,
+                        "y": 201
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Chromosome_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "chromosome1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 17
+                      },
+                      {
+                        "x": 223,
+                        "y": 17
+                      },
+                      {
+                        "x": 223,
+                        "y": 644
+                      },
+                      {
+                        "x": 27,
+                        "y": 644
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Chromosome_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "chromosome2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 29,
+                        "y": 21
+                      },
+                      {
+                        "x": 239,
+                        "y": 21
+                      },
+                      {
+                        "x": 239,
+                        "y": 637
+                      },
+                      {
+                        "x": 29,
+                        "y": 637
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chromo_Chromosome3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "chromosome3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 36
+                      },
+                      {
+                        "x": 240,
+                        "y": 36
+                      },
+                      {
+                        "x": 240,
+                        "y": 639
+                      },
+                      {
+                        "x": 10,
+                        "y": 639
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Chromo_Cytokines"
+      },
+      {
+        "objectName": "Chromo_FishingHook"
+      },
+      {
+        "objectName": "Chromo_Oligomers"
+      },
+      {
+        "objectName": "Chromo_DNA"
+      },
+      {
+        "objectName": "Chromo_DNA2"
+      },
+      {
+        "objectName": "Chromo_Dna2"
+      },
+      {
+        "objectName": "Chromo_Chromosome_1"
+      },
+      {
+        "objectName": "Chromo_Chromosome_2"
+      },
+      {
+        "objectName": "Chromo_Chromosome3"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -483,10 +2456,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/gamescene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/conclusion"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/welcomescene"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
